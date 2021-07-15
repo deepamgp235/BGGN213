@@ -14,7 +14,7 @@ baby_weight <- read.table("bimm143_05_rstats/weight_chart.txt", header= TRUE)
 class(baby_weight)
 plot(baby_weight, pch=15 ,type= "b",cex=1.5,lwd=2, ylim=c(2,10), xlab="Age (months", ylab="weight (kg)", main="Baby weight")
 #if you need to have a series of different points, you can plot pch1:4 and then generate the series, for example
-plot(baby_weight, pch=1:4)
+plot(baby_weight, pch=1:3)
 #The overplot type will generate the lines which are not broken and are connected.
 plot(baby_weight, type="o")
 #section 2B Bar plot
